@@ -1,0 +1,16 @@
+{
+  "name": "ejercicio1",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Ejercicio 1 para la entrevista con idealsur.com",
+  "main": "index.js",
+  "scripts": {
+    "dev": "serve . --no-request-logging"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.0"
+  }
+}
