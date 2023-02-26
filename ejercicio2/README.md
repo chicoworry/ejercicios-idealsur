@@ -6,7 +6,7 @@ Despues de instalar y configurar el servidor MySQL
 # replace .env.example according to your setup
 mv .env.example .env
 
-source .env
+export $(cat .env | xargs)
 
 mysql --user=$MYSQL_USER --password=$MYSQL_PASSWORD
 ```
