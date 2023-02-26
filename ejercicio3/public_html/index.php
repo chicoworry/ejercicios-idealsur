@@ -61,14 +61,14 @@
         <div class="flex">
             <!-- Table of users from DB -->
             <div class="mx-auto">
-                <div class="font-semibold text-xl text-center mb-5">Listado de usuarios</div>
+                <div class="font-semibold text-xl text-center mb-5">Listado de usuarios - <a href="charts.php" class="text-indigo-600 border-b border-indigo-600 pb-0.5">Ver gráficos</a></div>
                 <table class="table-auto w-full">
                     <thead class="border border-slate-400 bg-slate-100">
                         <tr class="text-left">
                             <th class="px-6 py-3">ID</th>
                             <th class="px-6 py-3">Nombre</th>
                             <th class="px-6 py-3">Edad</th>
-                            <th class="px-6 py-3">Sexo</th>
+                            <th class="px-6 py-3">Género</th>
                             <th class="px-6 py-3">Rol</th>
                         </tr>
                     </thead>
